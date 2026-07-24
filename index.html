@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Presensi — Hadir, Terdata, Terpercaya</title>
+<meta name="description" content="Presensi adalah aplikasi absensi karyawan dengan verifikasi foto selfie dan lokasi GPS real-time. Akurat, transparan, dan mudah dipantau dari satu dashboard.">
+
+<link rel="icon" type="image/png" href="assets/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="assets/img/favicon-192.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Langsung ke konten</a>
+
+<!-- ============ NAV ============ -->
+<header class="site-header" id="top">
+  <div class="wrap header-inner">
+    <a href="#top" class="brand">
+      <img src="assets/img/logo.png" alt="Presensi" class="brand-mark">
+      <span class="brand-name">PR<span class="dash">E</span>SENSI</span>
+    </a>
+
+    <nav class="main-nav" id="main-nav">
+      <a href="#cara-kerja">Cara Kerja</a>
+      <a href="#fitur">Fitur</a>
+      <a href="#dashboard">Dashboard HR</a>
+      <a href="#unduh">Unduh</a>
+    </nav>
+
+    <div class="header-actions">
+      <a href="#unduh" class="btn btn-ghost">Masuk</a>
+      <a href="#unduh" class="btn btn-primary">Coba Gratis</a>
+    </div>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Buka menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="dot dot-red"></span>Absensi digital untuk tim modern</p>
+        <h1>Kehadiran yang <span class="text-stroke">terverifikasi</span>,<br>bukan sekadar tercatat.</h1>
+        <p class="lede">Presensi memvalidasi setiap absen dengan foto selfie real-time dan titik GPS aktual — jadi laporan kehadiran tim Anda akurat, transparan, dan tidak bisa dititip.</p>
+
+        <div class="hero-cta">
+          <a href="#unduh" class="btn btn-primary btn-lg">Unduh Aplikasi</a>
+          <a href="#cara-kerja" class="btn btn-outline btn-lg">Lihat Cara Kerja</a>
+        </div>
+
+        <dl class="stat-row">
+          <div class="stat">
+            <dt>92.45<span class="unit">%</span></dt>
+            <dd>rata-rata kehadiran tim</dd>
+          </div>
+          <div class="stat">
+            <dt>45<span class="unit">m</span></dt>
+            <dd>akurasi radius lokasi</dd>
+          </div>
+          <div class="stat">
+            <dt>128</dt>
+            <dd>karyawan aktif termonitor</dd>
+          </div>
+        </dl>
+      </div>
+
+      <div class="hero-visual reveal" style="--delay:120ms">
+        <div class="phone-frame">
+          <img src="assets/screens/beranda.png" alt="Tampilan beranda aplikasi Presensi menampilkan status kehadiran hari ini">
+        </div>
+        <div class="float-card float-card--status">
+          <span class="status-dot status-dot--warn"></span>
+          <div>
+            <p class="fc-title">Belum Presensi Masuk</p>
+            <p class="fc-sub">Jadwal 08:00 – 17:00</p>
+          </div>
+        </div>
+        <div class="float-card float-card--gps">
+          <span class="status-dot status-dot--ok"></span>
+          <div>
+            <p class="fc-title">Sinyal GPS Kuat</p>
+            <p class="fc-sub">Dalam radius kantor</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ LOGO / TRUST STRIP ============ -->
+  <section class="trust-strip">
+    <div class="wrap trust-inner reveal">
+      <p><span class="mono">Aman &amp; Terpercaya</span></p>
+      <p><span class="mono">Akurat &amp; Realtime</span></p>
+      <p><span class="mono">Praktis &amp; Efisien</span></p>
+      <p><span class="mono">Laporan Lengkap</span></p>
+    </div>
+  </section>
+
+  <!-- ============ CARA KERJA (signature stepper section) ============ -->
+  <section class="how" id="cara-kerja">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot dot-red"></span>Alur presensi masuk</p>
+        <h2>Empat langkah yang sama,<br>setiap hari, tanpa celah manipulasi.</h2>
+        <p class="section-lede">Ini bukan ilustrasi — ini alur asli yang dilalui setiap karyawan saat presensi masuk di aplikasi Presensi.</p>
+      </div>
+
+      <ol class="stepper">
+        <li class="step reveal">
+          <div class="step-head">
+            <span class="step-index">Lokasi</span>
+            <span class="step-line" aria-hidden="true"></span>
+          </div>
+          <div class="step-body">
+            <div class="step-shot"><img src="assets/screens/presensi_lokasi.png" alt="Layar konfirmasi lokasi menampilkan peta dan jarak 45 meter ke kantor"></div>
+            <div class="step-text">
+              <h3>Konfirmasi titik GPS</h3>
+              <p>Aplikasi membaca sinyal GPS dan menghitung jarak nyata karyawan ke titik kantor terdaftar sebelum presensi bisa dilanjutkan.</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="step reveal">
+          <div class="step-head">
+            <span class="step-index">Foto</span>
+            <span class="step-line" aria-hidden="true"></span>
+          </div>
+          <div class="step-body">
+            <div class="step-shot"><img src="assets/screens/presensi_foto.png" alt="Layar pengambilan foto selfie untuk verifikasi presensi"></div>
+            <div class="step-text">
+              <h3>Selfie real-time</h3>
+              <p>Kamera diambil langsung saat itu juga — bukan unggah galeri — memastikan orang yang hadir memang orang yang bersangkutan.</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="step reveal">
+          <div class="step-head">
+            <span class="step-index">Verifikasi</span>
+            <span class="step-line" aria-hidden="true"></span>
+          </div>
+          <div class="step-body">
+            <div class="step-shot"><img src="assets/screens/verifikasi.png" alt="Layar verifikasi berhasil menampilkan checklist lokasi, foto selfie, waktu, dan koneksi"></div>
+            <div class="step-text">
+              <h3>Pengecekan silang otomatis</h3>
+              <p>Lokasi, wajah, waktu, dan status koneksi dicocokkan dalam hitungan detik sebelum data dikunci ke server.</p>
+            </div>
+          </div>
+        </li>
+
+        <li class="step reveal">
+          <div class="step-head">
+            <span class="step-index">Selesai</span>
+          </div>
+          <div class="step-body">
+            <div class="step-shot"><img src="assets/screens/berhasil.png" alt="Layar konfirmasi presensi berhasil dengan tanggal, waktu, lokasi, dan jarak"></div>
+            <div class="step-text">
+              <h3>Tercatat, dengan bukti</h3>
+              <p>Setiap presensi tersimpan lengkap dengan cap waktu, koordinat, dan foto — siap dilihat kembali di riwayat maupun laporan HR.</p>
+            </div>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ FITUR ============ -->
+  <section class="features" id="fitur">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot dot-red"></span>Yang didapat setiap tim</p>
+        <h2>Satu aplikasi, empat jaminan.</h2>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 3a4 4 0 0 1 4 4v1a4 4 0 0 1-8 0V7a4 4 0 0 1 4-4Z"/><path d="M5 20c0-3.9 3.1-6 7-6s7 2.1 7 6" fill="none" stroke-width="1.6" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Foto Selfie</h3>
+          <p>Verifikasi kehadiran memakai foto real-time, diambil langsung dari kamera saat presensi berlangsung.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2c-4 0-7 3-7 7 0 5.2 7 13 7 13s7-7.8 7-13c0-4-3-7-7-7Z" fill="none" stroke-width="1.6"/><circle cx="12" cy="9" r="2.4"/></svg>
+          </div>
+          <h3>Lokasi Akurat</h3>
+          <p>Titik absensi dicatat secara realtime dengan GPS, dibandingkan langsung terhadap radius kantor terdaftar.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3.4 8.7 8 11 4.6-2.3 8-6 8-11V5l-8-3Z" fill="none" stroke-width="1.6" stroke-linejoin="round"/><path d="m8.5 12 2.4 2.4L15.5 9" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Data Terverifikasi</h3>
+          <p>Setiap catatan kehadiran melewati pengecekan lokasi, wajah, dan waktu sebelum tersimpan sebagai data resmi.</p>
+        </article>
+
+        <article class="feature-card reveal">
+          <div class="feature-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M4 20V10M11 20V4M18 20v-7" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Laporan Lengkap</h3>
+          <p>Riwayat harian, mingguan, dan bulanan tersusun rapi — siap diekspor untuk keperluan payroll dan evaluasi.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DASHBOARD ADMIN ============ -->
+  <section class="dashboard-section" id="dashboard">
+    <div class="wrap dashboard-inner">
+      <div class="dashboard-copy reveal">
+        <p class="eyebrow"><span class="dot dot-red"></span>Untuk tim HR &amp; admin</p>
+        <h2>Pantau seluruh tim dari satu layar.</h2>
+        <p class="section-lede">Dashboard web memberi HR gambaran menyeluruh: siapa hadir, siapa terlambat, dan lokasi mana yang butuh perhatian — tanpa rekap manual.</p>
+
+        <ul class="checklist">
+          <li><span class="check-mark">✓</span>Ringkasan kehadiran, keterlambatan, dan pulang cepat per periode</li>
+          <li><span class="check-mark">✓</span>Tren kehadiran harian dalam satu grafik</li>
+          <li><span class="check-mark">✓</span>Perbandingan performa antar cabang / lokasi kerja</li>
+          <li><span class="check-mark">✓</span>Data per karyawan, siap difilter dan diekspor</li>
+        </ul>
+
+        <a href="#unduh" class="btn btn-primary">Lihat Demo Dashboard</a>
+      </div>
+
+      <div class="dashboard-shot reveal" style="--delay:120ms">
+        <img src="assets/img/dashboard.png" alt="Dashboard web Presensi menampilkan laporan bulanan kehadiran, tren harian, dan daftar karyawan">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ APP SCREENS SHOWCASE ============ -->
+  <section class="showcase">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <p class="eyebrow"><span class="dot dot-red"></span>Di dalam aplikasi</p>
+        <h2>Dirancang supaya presensi selesai dalam hitungan detik.</h2>
+      </div>
+
+      <div class="showcase-strip reveal">
+        <div class="showcase-item">
+          <img src="assets/screens/login.png" alt="Layar masuk aplikasi Presensi">
+          <p>Masuk dengan email/NIK atau fingerprint</p>
+        </div>
+        <div class="showcase-item">
+          <img src="assets/screens/riwayat.png" alt="Layar riwayat presensi bulanan">
+          <p>Riwayat presensi per hari, minggu, bulan</p>
+        </div>
+        <div class="showcase-item">
+          <img src="assets/screens/profil.png" alt="Layar profil karyawan">
+          <p>Profil, NIK, dan data kepegawaian</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA / UNDUH ============ -->
+  <section class="cta-section" id="unduh">
+    <div class="wrap cta-inner reveal">
+      <div class="cta-text">
+        <p class="eyebrow eyebrow-onred"><span class="dot dot-white"></span>Coba sekarang</p>
+        <h2>Hadir, terdata, terpercaya —<br>mulai hari ini.</h2>
+        <p class="cta-lede">Gratis untuk tim kecil. Tanpa kartu kredit, siap pakai dalam 5 menit.</p>
+        <div class="cta-buttons">
+          <a href="#" class="store-btn">
+            <span class="store-icon">▶</span>
+            <span><small>Unduh di</small>Google Play</span>
+          </a>
+          <a href="#" class="store-btn">
+            <span class="store-icon"></span>
+            <span><small>Unduh di</small>App Store</span>
+          </a>
+        </div>
+      </div>
+      <div class="cta-visual">
+        <div class="phone-frame phone-frame--sm">
+          <img src="assets/screens/berhasil.png" alt="Presensi berhasil tercatat">
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-brand">
+      <img src="assets/img/logo.png" alt="Presensi" class="brand-mark">
+      <span class="brand-name">PR<span class="dash">E</span>SENSI</span>
+      <p>Hadir, terdata, terpercaya.</p>
+    </div>
+
+    <div class="footer-cols">
+      <div>
+        <h4>Produk</h4>
+        <a href="#cara-kerja">Cara Kerja</a>
+        <a href="#fitur">Fitur</a>
+        <a href="#dashboard">Dashboard HR</a>
+      </div>
+      <div>
+        <h4>Perusahaan</h4>
+        <a href="#top">Tentang</a>
+        <a href="#unduh">Hubungi Admin</a>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <a href="#">Kebijakan Privasi</a>
+        <a href="#">Syarat Layanan</a>
+      </div>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <p>© 2026 Presensi App. Semua hak dilindungi.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
